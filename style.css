@@ -237,6 +237,7 @@ body {
     padding: 20px;
     display: block;
     top: 100vh;
+    overflow: scroll;
 }
 #canvas{
     width: 50vw;
