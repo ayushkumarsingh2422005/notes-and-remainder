@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/50b80e1ce7.js" crossorigin="anonymous"></script>
+    <title>HTML</title>
+    <!-- HTML -->
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <script src="External libraries/jquery.js"></script>
+    
+</head>
+
+<body>
+    <div id="top">
+        <i class="fas fa-bars"></i>
+        <span id="title">Your personal app</span>
+        <i class="fas fa-plus-circle"></i>
+    </div>
+    <div id="top2">
+        <div id="slider1">
+        </div>
+        <span id="to_do_list">To do list</span>
+        <span id="small_notes">Small Notes</span>
+    </div>
+    <div id="container_to_do">
+    </div>
+    <div id="container_small">
+    </div>
+    <!--Additional tamplets-->
+    <div id="to_do_add_container">
+        <div id="to_do_input" contenteditable="true"></div>
+        <label for="to_do_time" id="to_do_time_text">Set Time</label>
+        <input id="to_do_time" type="datetime-local">
+        <!--Add time
+        </span>-->
+        <span id="to_do_add">
+            Add Task
+        </span>
+        <span id="to_do_close">
+            Close
+        </span>
+    </div>
+    <div id="small_add_container">
+        <div id="small_title" contenteditable="true">
+            Title
+        </div>
+        <div id="small_input" contenteditable="true">
+            Your Notes
+        </div>
+        <span id="small_add">
+            Add Task
+        </span>
+        <span id="small_close">
+            Close
+        </span>
+    </div>
+    
+    
+    <div id="to_do_add_container_edit">
+        <div id="to_do_input_edit" contenteditable="true"></div>
+        <label for="to_do_time_edit" id="to_do_time_text_edit">Set Time</label>
+        <input id="to_do_time_edit" type="datetime-local">
+        <!--Add time
+        </span>-->
+        <span id="to_do_add_edit">
+            Edit Task
+        </span>
+        <span id="to_do_close_edit">
+            Close
+        </span>
+    </div>
+    
+    <div id="small_add_container_edit">
+        <div id="small_title_edit" contenteditable="true">
+            Title
+        </div>
+        <div id="small_input_edit" contenteditable="true">
+            Your Notes
+        </div>
+        <span id="small_add_edit">
+            Edit Task
+        </span>
+        <span id="small_close_edit">
+            Close
+        </span>
+    </div>
+    
+    
+    <div id="additional_cont">
+        <div id="close_tab">
+            <i class="far fa-window-close"></i>
+        </div>
+        <canvas id="canvas" height="1000" width="1000"></canvas>
+        <table id="" border="0">
+            <tr>
+                <th></th>
+                <th>Total<br>Characters</th>
+                <th>Total<br>Items</th>
+                <th>Total<br>Memory</th>
+            </tr>
+            <tr>
+                <td>To Do List</td>
+                <td>calculating...</td>
+                <td>calculating...</td>
+                <td>calculating...</td>
+            </tr>
+            <tr>
+                <td>Short Notes</td>
+                <td>calculating...</td>
+                <td>calculating...</td>
+                <td>calculating...</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>calculating...</td>
+                <td>calculating...</td>
+                <td>calculating...</td>
+            </tr>
+        </table>
+        <div id="contacts">
+            <div class="contactme">
+                contact me
+            </div>
+            <a href="">
+                <img src="https://cdn1.iconfinder.com/data/icons/social-media-logos-7/64/github-512.png" alt="" />
+            </a>
+            <a href="">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK5eVnseleb1pHwHafYWEqLI7qe04TFc8_2Q&usqp=CAU" alt="" />
+            </a>
+            <a href="">
+                <img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c521.png" alt="" />
+            </a>
+        </div>
+    </div>
+    
+    <div id="cursor"></div>
+    <div id="loader_cont">
+        <div id="loader1"></div>
+        <div id="loader2"></div>
+        <div id="loader3"></div>
+    </div>
+</body>
+
+</html>
